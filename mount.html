@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mt. Malindig & Malbog Hot Springs</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../CSS/general_css.css">
+    <style>
+        .feature-card { border: none; border-radius: 12px; transition: 0.3s; background: #f8f9fa; }
+        .feature-card:hover { transform: translateY(-5px); box-shadow: 0 10px 20px rgba(0,0,0,0.08); }
+        .checklist-table thead { background-color: #198754; color: white; }
+        .springs-box { background: linear-gradient(135deg, #e0f2f1 0%, #b2dfdb 100%); border-radius: 15px; }
+    </style>
+</head>
+<body id="top">
+
+    <div class="banner">
+        <div class="logo-overlay">
+            <div class="container d-flex flex-column flex-md-row align-items-center justify-content-center">
+                <img src="../images/logo.png" alt="Marinduque Logo" class="mb-3 mb-md-0 me-md-4" style="width: clamp(80px, 15vw, 150px); height: auto;">
+                <div class="header-text text-center text-md-start">
+                    <h1>Welcome to Marinduque</h1>
+                    <h2>The heart of the Philippines</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <nav class="navbar navbar-expand-lg sticky-top links-nav p-0 navbar-dark">
+        <div class="container-fluid">
+            <button class="navbar-toggler ms-auto my-2 me-2" type="button" data-bs-toggle="collapse" data-bs-target="#mtNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" id="mtNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="https://youtu.be/E5jbQluTU-E?si=t0GE6Dyx91Nnh2pG">Look of Marinduque</a></li>
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="https://youtu.be/dQw4w9WgXcQ?si=eY2fpdGNLxwbta3p">Contact</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Explore Mountain</a>
+                        <ul class="dropdown-menu dropdown-menu-dark">
+                            <li><a class="dropdown-item" href="#intro">Overview</a></li>
+                            <li><a class="dropdown-item" href="#hike">The Hike</a></li>
+                            <li><a class="dropdown-item" href="#malbog">Hot Springs</a></li>
+                            <li><a class="dropdown-item" href="#biodiversity">Biodiversity</a></li>
+                            <li><a class="dropdown-item" href="#checklist">Hiker Checklist</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="main-responsive-wrapper">
+        <div class="container py-5">
+            <div class="row justify-content-center">
+                <div class="col-12 col-lg-10">
+
+                    <section id="intro" class="mb-5">
+                        <div class="row align-items-center g-4">
+                            <div class="col-md-7">
+                                <h2 class="section-header border-0 p-0 text-start">I. Mt. Malindig – The Guardian Stratovolcano</h2>
+                                <p class="lead">Rising 1,157 meters above sea level, Mt. Malindig is the highest peak in Marinduque. This potentially active volcano stands as a lush sentinel between Buenavista and Torrijos.</p>
+                                <div class="d-flex gap-3">
+                                    <span class="badge bg-success p-2">Elevation: 1,157m</span>
+                                    <span class="badge bg-info text-dark p-2">Status: Potentially Active</span>
+                                </div>
+                            </div>
+                            <div class="col-md-5">
+                                <div class="p-4 bg-light text-center border rounded shadow-sm">
+                                    <h1 class="display-1">🌋</h1>
+                                    <p class="small text-muted mb-0">The leaning silhouette that inspired the name "Marinduque."</p>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <div class="row g-4 mb-5">
+                        <div class="col-md-6" id="hike">
+                            <div class="card h-100 feature-card p-4">
+                                <h3 class="fw-bold h4"><span class="me-2">🥾</span> II. The Hike (2026)</h3>
+                                <ul class="list-unstyled mt-3">
+                                    <li class="mb-2"><strong>Difficulty:</strong> Level 3/9 (Moderate)</li>
+                                    <li class="mb-2"><strong>Trail:</strong> Established farm trails passing through coconut plantations.</li>
+                                    <li class="mb-2"><strong>The Peak:</strong> Offers 360° views of the Sibuyan Sea and Tres Reyes Islands.</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-6" id="biodiversity">
+                            <div class="card h-100 feature-card p-4">
+                                <h3 class="fw-bold h4"><span class="me-2">🦅</span> IV. Biodiversity Spotlight</h3>
+                                <ul class="list-unstyled mt-3">
+                                    <li class="mb-2"><strong>Mossy Forest:</strong> Lush upper elevations with rare orchids and ferns.</li>
+                                    <li class="mb-2"><strong>Wildlife:</strong> Habitat of the Philippine Brown Deer and Serpent Eagle.</li>
+                                    <li class="mb-2"><strong>Protection:</strong> Declared a Strict Protection Zone as of 2026.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <section id="malbog" class="mb-5 p-4 springs-box shadow-sm">
+                        <div class="row align-items-center">
+                            <div class="col-md-8">
+                                <h2 class="fw-bold">III. Recovery at Malbog Sulfur Hot Springs</h2>
+                                <p>After the demanding hike, soothe your muscles at the mountain’s base. These natural volcanic springs are famous for their medicinal properties.</p>
+                                <ul class="mb-0">
+                                    <li><strong>Healing:</strong> High sulfur content believed to aid skin and muscle recovery.</li>
+                                    <li><strong>Experience:</strong> Choose between public dipping pools or private resort facilities.</li>
+                                    <li><strong>Nature:</strong> Authentic "rotten egg" scent from the active volcanic vents.</li>
+                                </ul>
+                            </div>
+                            <div class="col-md-4 text-center d-none d-md-block">
+                                <span class="display-2">♨️</span>
+                            </div>
+                        </div>
+                    </section>
+
+                    <section id="checklist" class="mb-5">
+                        <h2 class="section-header">V. Hiker’s Checklist</h2>
+                        <div class="table-responsive">
+                            <table class="table table-hover border shadow-sm align-middle">
+                                <thead class="checklist-table">
+                                    <tr>
+                                        <th>Essential Item</th>
+                                        <th>Purpose</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr><td><strong>Local Guide</strong></td><td>Mandatory for safety and supporting community tourism.</td></tr>
+                                    <tr><td><strong>Water (2L)</strong></td><td>Humid tropical conditions require constant hydration.</td></tr>
+                                    <tr><td><strong>Trail Snacks</strong></td><td>Energy for the 3-5 hour roundtrip trek.</td></tr>
+                                    <tr><td><strong>Swimsuit</strong></td><td>For your post-hike soak in the Malbog Springs.</td></tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </section>
+
+                    <div class="alert alert-success border-0 shadow-sm" id="facts">
+                        <h4 class="fw-bold">💡 Quick Facts</h4>
+                        <div class="row">
+                            <div class="col-md-6"><strong>Time:</strong> 3–5 hours (Roundtrip)</div>
+                            <div class="col-md-6"><strong>Legend:</strong> The "Head" of the giant that formed the island.</div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="border-top mt-auto py-3 text-center bg-light">
+        <p class="mb-0 small text-muted">&copy; 2024 Marinduque Tourism. All lefts reserved.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
